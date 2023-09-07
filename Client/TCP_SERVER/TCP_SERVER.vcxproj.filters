@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\config">
+      <UniqueIdentifier>{ae0eb7c9-e90d-49ab-847c-73a1393411d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\kernel">
+      <UniqueIdentifier>{c9f9616d-3150-420a-9d53-01bad90aa4c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Inet">
+      <UniqueIdentifier>{06519664-201d-45a2-a4ae-764ad6a6309c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\mediator">
+      <UniqueIdentifier>{b363c3fe-819a-4d8f-a771-fd956992c1a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\kernel">
+      <UniqueIdentifier>{25d747cd-5f07-4499-a6a0-132d864f503c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\inet">
+      <UniqueIdentifier>{f86143af-0881-4163-900a-6dd983e0c57d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\mediator">
+      <UniqueIdentifier>{7278d569-6417-4e3d-a797-a9e7301f4f18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\MySql">
+      <UniqueIdentifier>{1c3425cc-d539-4009-816f-6c698be3e3a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\MySql">
+      <UniqueIdentifier>{e99cde2d-0398-467d-8bd6-21291a94215f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\MD5">
+      <UniqueIdentifier>{6327b282-4ccc-465a-9bee-55d5fdc88db7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\MD5">
+      <UniqueIdentifier>{fc53f999-e8de-4fcf-b6e4-d58328f675ce}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="INET\TcpNet.cpp">
+      <Filter>源文件\inet</Filter>
+    </ClCompile>
+    <ClCompile Include="Mediator\TcpMediator.cpp">
+      <Filter>源文件\mediator</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\kernel.cpp">
+      <Filter>源文件\kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="MySQL\CMySql.cpp">
+      <Filter>源文件\MySql</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="md5\md5.cpp">
+      <Filter>源文件\MD5</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Mediator\INetMediator.h">
+      <Filter>头文件\mediator</Filter>
+    </ClInclude>
+    <ClInclude Include="INET\INET.h">
+      <Filter>头文件\Inet</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\kernel.h">
+      <Filter>头文件\kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="Mediator\TcpMediator.h">
+      <Filter>头文件\mediator</Filter>
+    </ClInclude>
+    <ClInclude Include="INET\TcpNet.h">
+      <Filter>头文件\Inet</Filter>
+    </ClInclude>
+    <ClInclude Include="MySQL\CMySql.h">
+      <Filter>头文件\MySql</Filter>
+    </ClInclude>
+    <ClInclude Include="md5\md5.h">
+      <Filter>头文件\MD5</Filter>
+    </ClInclude>
+    <ClInclude Include="config\config.h">
+      <Filter>头文件\Inet</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

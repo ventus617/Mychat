@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\config">
+      <UniqueIdentifier>{5725e2b9-ebec-40a9-be5f-8b51354d36f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\inet">
+      <UniqueIdentifier>{89ec1e61-f6ce-48ee-8366-53b7489bf7a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\mediator">
+      <UniqueIdentifier>{769eb179-6890-4fd1-90e8-53078a20a928}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\mediator">
+      <UniqueIdentifier>{fab922d8-54fa-4d84-a06e-1b26892587ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\inet">
+      <UniqueIdentifier>{abd991cc-1738-4ee7-8849-5804693c9e88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\main">
+      <UniqueIdentifier>{2bade4b8-a0af-4f63-898b-4f9fa72c7c92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\kernel">
+      <UniqueIdentifier>{dd31b7bc-6b91-42ed-97ab-f03821593280}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\kernel">
+      <UniqueIdentifier>{10663cd3-16a8-4e4e-aa81-45760250e352}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="INET.h">
+      <Filter>头文件\inet</Filter>
+    </ClInclude>
+    <ClInclude Include="UdpNet.h">
+      <Filter>头文件\inet</Filter>
+    </ClInclude>
+    <ClInclude Include="config.h">
+      <Filter>头文件\config</Filter>
+    </ClInclude>
+    <ClInclude Include="INetMediator.h">
+      <Filter>头文件\mediator</Filter>
+    </ClInclude>
+    <ClInclude Include="UdpMediator.h">
+      <Filter>头文件\mediator</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel.h">
+      <Filter>头文件\kernel</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="UdpMediator.cpp">
+      <Filter>源文件\mediator</Filter>
+    </ClCompile>
+    <ClCompile Include="UdpNet.cpp">
+      <Filter>源文件\inet</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件\main</Filter>
+    </ClCompile>
+    <ClCompile Include="cKernel.cpp">
+      <Filter>源文件\kernel</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
