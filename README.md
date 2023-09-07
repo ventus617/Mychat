@@ -20,3 +20,20 @@ create table t_friend(
 id_link bigint unsigned ,
 id_user bigint unsigned 
 );
+
+create table t_chat
+(
+	id_user bigint unsigned ,
+	id_friend bigint unsigned,
+    time varchar(50),
+    content varchar(4096)
+);
+
+create table t_groupchat
+(
+	id_link bigint unsigned ,
+	id_user bigint unsigned,
+    time varchar(50),
+    content varchar(4096)
+);
+
