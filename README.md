@@ -1,4 +1,7 @@
+
 # Mychat
+客户端使用时注意修改库的位置
+我将speex opencv一起打包了,请自行更换QT里面的库的路径
 服务端使用Mysql
 Mysql数据库表创建语句为：
 
